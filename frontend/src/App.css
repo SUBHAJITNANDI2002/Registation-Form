@@ -1,0 +1,143 @@
+
+
+ .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; 
+}
+
+.form-container {
+  width: 100%;
+  max-width: 400px;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #ffffff;
+ 
+}
+
+.form-container h2 {
+  text-align: center;
+  margin-top: 0;
+  font-size: 24px;
+}
+
+.form-container label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-container input[type="text"],
+.form-container input[type="email"],
+.form-container input[type="date"],
+.form-container input[type="radio"] {
+  width: 95%;
+  padding: 8px;
+  margin-bottom: 15px;
+
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 14px;
+}
+
+.form-container input[type="radio"] {
+  margin-right: 10px;
+}
+
+.form-container button[type="submit"] {
+  width: 100%;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  /* margin-top: 5px;  */
+}
+
+.form-container button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+
+.radio-button {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+
+}
+
+.radio-button label {
+  margin-left: 5px;
+  font-weight: bold;
+}
+
+.radio-button input[type="radio"] {
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+
+
+/* Additional CSS for DisplayInfoPage */
+.container1 {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f3f4f6; 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+h2 {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333; 
+  font-size: 24px;
+  text-transform: uppercase; 
+}
+
+p {
+  margin-bottom: 10px;
+}
+
+.label {
+  font-weight: bold;
+  color: #555; 
+}
+
+.value {
+  margin-left: 10px;
+  color: #777; 
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  padding: 10px 20px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff; 
+  color: #fff; 
+  font-size: 16px;
+  font-weight: bold; 
+  text-transform: uppercase; 
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #0056b3; /* Darker blue button color on hover */
+}
+
+
